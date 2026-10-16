@@ -1,3 +1,521 @@
 *{
     margin: 0px;
+    padding: 0px;
+    
 }
+/*header*/
+.header{
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+}
+.hero{
+    width: 60%;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    padding: 10px 40px 10px 5px;
+}
+.menu-toggle{
+    display: none;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.nav{
+
+    background-color: white;
+}
+.nav ul li{
+    grid:20px ;
+    list-style: none;
+    margin: 0px 10px;
+}
+.logo{
+    height: 25px;
+    width: 25px;
+
+}
+#logo-text1{
+    font-weight: bold;
+    color: black;
+    
+}
+#logo-text2{
+    font-weight: bold;
+    color: #007BFF;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.hover:hover{
+    color: #007BFF;
+    border-bottom: 2px solid #007BFF;
+}
+.nav li::last-child{
+    margin-right: 0px;
+    background-color: #ff0055;
+    border:slid 2px #ff0055;
+}
+.Demande-devis{
+    width: 40%;
+    display: flex;
+    text-decoration: none;
+    background-color:white;
+    padding: 10px 20px;
+    border-radius: 5px;
+  
+    justify-content: end;
+    align-items: end;
+}
+.Demande-devis button{
+    text-decoration: none;
+    background-color: #FF6418;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: black;
+
+}
+/*main*/
+main {
+    background-color:backgr#F3F7FA;
+    padding: 10px 20px;
+
+}
+.section1{
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+
+.image{
+    width: 50%;
+    padding: 10px 20px;
+}
+.section1-image{
+    width: 50%;
+    padding: 10px 20px;
+}
+.button-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 120px;
+}
+.button-container a{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+.button1{
+    background-color: #FF6418;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button2{
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+#text1{
+    font-size: 15px;
+    font-weight: small;
+    color:blue;
+    padding: 5px 0px;
+}
+#text2{
+    font-size: 30px;
+    font-weight: bold;
+    color:black;
+    padding: 5px 0px;
+}
+.image-principal{
+    height: 400px;
+    width: 400px;
+}
+/*section2*/
+.section2{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+    background-color: #F3F7FA;
+    padding: 10px 20px;
+}
+.section2 div{
+
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+
+    padding: 10px 20px;
+    gap:20px;
+}
+.title-section3{
+    background-color: chartreuse;
+
+}
+
+
+.image-solution{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F3F7FA;
+    padding: 10px 20px;
+}
+.image-solution div img{
+    height: 400px;
+    width: 400px;
+
+
+}
+.image-solution div{
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+
+    padding: 10px 20px;
+}
+.image-solution div i,.icon-section3 div div i,.section2 div i{
+    color:#007BFF;
+    background-color:#E7F1FB;
+    border-radius: 50%;
+    padding:10px 0px;
+
+}
+.text-solution{
+    text-align:center;
+    padding: 20px 20px;
+}
+#text-solution{
+    color:#007BFF;
+    
+
+}
+
+.button-service{
+    display:flex;
+    align-items:center;
+    background-color:#FFFFFF;
+    color:white;
+    padding: 10px 20px;
+    justify-content:center;
+
+}
+.button-service a{
+    text-decoration:none;
+    background-color: #FFFFFF;
+    color:black;
+    padding: 10px 20px;
+    border: solid 1px black;
+
+}
+/* section3 */
+.text-section3{
+    margin-top: 30px 10px;
+    flex-wrap: wrap;
+}
+.section3{
+    margin-top: 30px;
+    background-color: #F3F7FA;
+    border:#007BFF solid 5px;
+    
+    padding: 10px 20px;
+    display:flex;
+
+}
+.image1{
+  
+    width: 400px;
+    height: 400px;
+   
+    border-radius: 30px ;
+
+
+    padding: 10px;
+   
+
+}
+.icon-section3{
+   
+
+    display:flex;
+ 
+    
+    justify-content:space-evenly;
+    text-align: center;
+    flex-wrap:wrap;
+    /* padding: 10px 0px; */
+    border:solid black 3px;
+    border-radius: 40px;
+    gap: 30px;
+   
+}
+
+
+
+
+.icons div{
+    display: flex;
+    gap :15px; 
+    flex-wrap: wrap;
+
+
+}
+#text-decor{
+    color:#007BFF;
+    font-weight: bold;
+
+}
+
+.title-sction3{
+    margin: 20px 30px;
+}
+/*footer*/
+/*PARTE1*/
+.footer{
+    background-color: #102A43;
+    color: white;
+}
+.footer-parte1{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+#footer-social i{
+  
+    border:solid 3px white;
+    border-radius: 45px;
+    padding: 20px;
+    margin: 10px;
+}
+
+#footer-title, #footer-liens, #footer-nos-services,#footer-contact{
+    background-color:  #102A43;
+    flex-wrap: wrap;
+    width: 25%;
+
+}
+#footer-icon, #footer-liens h2, #footer-nos-services h2, #footer-contact h2{
+    padding-bottom: 15px;
+}
+#footer-liens p a{
+    text-decoration: none;
+    color: white;
+    gap:8px;
+}
+#footer-text, #footer-liens p, #footer-nos-services p, #footer-contact div{
+    padding: 15px;
+
+    
+}
+#footer-content-phone, #footer-content-phone, #footer-contact-adress{
+    display: flex;
+    gap: 10px;
+}
+/*PARTE2*/
+.footer-parte2{
+    padding:20px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+ 
+
+}
+#footer-text-legales{
+    display: flex;
+    gap: 30px;
+}
+#
+/* responsive */
+@media (max-width: 600px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .header{
+        flex-direction: column;
+    }
+    .hero{
+        width: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .Demande-devis{
+        width: auto;
+        height: 56px;
+        align-items: center;
+        justify-content: center;
+        /* display: flex;
+        background-color: red;
+        align-items: center; */
+
+    }
+    .Demande-devis button{
+        padding: 10px 150px;
+        justify-content: center;
+        width: 100%;
+        height: 40px;
+        background-color: #FF6418;
+        border-radius: 10px;
+
+        color: white;
+    }
+
+
+
+
+
+
+
+    .nav ul{
+        display: none;
+
+    }
+    .menu-toggle{
+        display: block;
+    }
+    .Demande-devis{
+        flex-direction: column;
+
+    } 
+    /* section1 */
+    .button-container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .section1-image{
+        padding: 0%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .button-container{
+        width: 100%;
+       
+        padding: 0px;
+    }
+    .button-container a{
+        width: 100%;
+        margin-top: 10px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+   
+    }
+
+    .image{
+        width: 300px;
+        height: 300px;
+        border-radius: 5px;
+        padding: 5%;
+    
+    } 
+    .section1{
+        flex-direction: column;
+        align-items: center;
+    }
+    /* section2 */
+    .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    /* .section2 div{
+        display: flex;
+        flex-direction: column;
+
+
+    } */
+
+
+
+
+
+
+
+
+
+    /* section3 */
+
+    .section3{
+        flex-wrap: wrap;
+    }
+    .image-solution {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        flex-direction: column;
+    }
+    .image1{
+        width: 300px;
+        height: 300px;
+    
+        flex-direction: column;
+    }
+
+    .icon-section3 div{
+        /* background-color: yellow; */
+        padding: 10px;
+        flex-wrap: wrap;
+
+    }
+    /* footer */
+    .footer-parte1{
+    
+        flex-direction: column;
+    }
+    .footer{
+        display: block;
+    }
+
+
+    #footer-title, #footer-liens, #footer-nos-services, #footer-contact{
+        width: 100%;
+        flex-direction: column;
+
+
+    }
+    .footer-parte2 div{
+    
+        padding: 10px;
+
+
+    }
+}
+/* page service */
+
+
+
